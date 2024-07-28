@@ -1,0 +1,40 @@
+#Question 4
+(Number of Expression)
+Given an array arr of length n. There are x '+' and y'-' symbols, and an integer target. You need to build an expression by adding '+' or '-' before each integer in the array. Return the count of different expressions built, which evaluates to the target.
+
+Example 1:
+
+Input: n=5 arr[] = {1, 1, 1, 1, 1} x=4 y=1 target = 3
+
+Output: 5
+
+Explanation: There are 5 expressions which have 4 '+' and 1 '-', which evaluates to 3.
+
+1+1+1+1+1=3 +1-1+1+1+1=3 +1+1-1+1+1=3 +1+1+1-1+1=3 +1+1+1+1-1=3
+Example 2:
+
+Input:
+
+n=1
+
+arr[] = {3}
+
+x=0
+
+y=1
+
+target = 3
+
+Output: 0
+
+Explanation: There is no valid expression that satisfy the conditions.
+
+Your Task:
+
+You don't need to read input or print anything. Your task is to complete the function countWays() which takes the array arr[] and its size n, x, y, and target as input parameters and returns the number of expressions that satisfy the conditions.
+
+Constraints:
+
+1\le n\le30 0\le arr[i]\le10^{9} 0\le x y ≤ n -109 < target ≤ 109
+
+Note: x + y = n

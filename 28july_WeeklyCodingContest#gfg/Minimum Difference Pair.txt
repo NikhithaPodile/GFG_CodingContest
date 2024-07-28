@@ -1,0 +1,27 @@
+#Question 3
+(Minimum Difference Pair)
+
+Given an array arr of length n, and an integer x. The problem is to find the minimum absolute difference between two indices i and j (0 <= i < j < n), such that arr[i] ^ arr[j] <= x. If there are no valid pairs, return -1.
+
+Example 1:
+
+Input: n = 3 arr[] = {1, 2, 3} X = 3
+
+Output: 1
+
+Explanation: For i = 1, and j = 2, arr[i] ^ arr[j] <= x satisfies, as 2 A 3 = 1, which is less than or equal to 3. Hence, the minimum absolute difference is 1.
+Example 2:
+
+Input: n = 4 arr[] = {1, 4, 2, 8} x = 2
+
+Output: -1
+
+Explanation: There is no valid pair of i and j, which satisfies the given condition.
+
+Your Task:
+
+You don't need to read input or print anything. Your task is to complete the function minDifference() which takes the array arr[] and its size n, and x as input parameters and returns the minimum absolute difference which satisfies the condition.
+
+Constraints:
+
+2 ≤ n ≤ 105 0 ≤ arr[i] ≤ 109 0 ≤ x ≤ 109

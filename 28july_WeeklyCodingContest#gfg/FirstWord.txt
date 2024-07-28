@@ -1,0 +1,31 @@
+#Question 1
+(First Word)
+
+Given a string array dictionary of length n. Your task is to find the first word in the given dictionary. If the dictionary contains duplicates, return "Invalid", else return the first word according to the dictionary order.
+
+Example 1:
+
+Input: n = 3 dictionary[] = {geeksforgeeks, geeks, geek}
+
+Output: geek
+
+Explanation: "geek" is the first word in the dictionary as per dictionary order.
+Example 2:
+
+Input: n = 2 dictionary[] = {geek, geek}
+
+Output: Invalid
+
+Explanation: Since, the dictionary contains duplicates, so the answer is "Invalid".
+
+Your Task:
+
+You don't need to read input or print anything. Your task is to complete the function firstWord() which takes the array dictionary[] and its size n, as input parameters and returns the first word in the dictionary.
+
+Constraints:
+
+1 ≤ n ≤ 500
+
+1 ≤ |dictionary[i]| ≤ 500
+
+The string contains only lowercase letters
